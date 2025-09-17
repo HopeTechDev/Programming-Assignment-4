@@ -172,9 +172,12 @@ bars = plt.bar(
 - The x-axis labels are a single list of all category names: genders, tracks, and hometowns.
 - The y-axis heights are the corresponding mean values from gender, track, and hometown.
 
+ ---
+
 ##### *- 🌱“Failure is not the opposite of success; it’s part of success.”*
 
  ---
+
 
 ### 📝 Commitments
 
