@@ -37,7 +37,7 @@ This task emphasizes the power of data visualization — turning raw exam data i
 
 ## 💡 Code Explanation
 
-### 01.a
+### 01.a ECE BOARD EXAM PROBLEM
 
 ```python
 # DataFrame Representation
@@ -67,18 +67,18 @@ x = instru.loc[
 ]
 ```
 
-Filters the instru DataFrame to find specific students based on three conditions.
+- Filters the instru DataFrame to find specific students based on three conditions.
 
-Condition 1: instru['Electronics'] > 70 → selects students with Electronics scores above 70.
+a. Condition 1: instru['Electronics'] > 70 → selects students with Electronics scores above 70.
 
-Condition 2: instru['Hometown'] == 'Luzon' → limits results to students from Luzon.
+b. Condition 2: instru['Hometown'] == 'Luzon' → limits results to students from Luzon.
 
-Condition 3: instru['Track'] == 'Instrumentation' → focuses only on those in the Instrumentation track.
+d. Condition 3: instru['Track'] == 'Instrumentation' → focuses only on those in the Instrumentation track.
 
-Final Output Columns: Only shows 'Name', 'GEAS', and 'Electronics' in the result.
+e. Final Output Columns: Only shows 'Name', 'GEAS', and 'Electronics' in the result.
 
 
-### 01.b
+### 01.b ECE BOARD EXAM PROBLEM
 
 ```python
 Mindy = pd.DataFrame(boards, columns=['Name','Gender','Track','Math','Electronics','GEAS','Communication','Hometown']) # set the data frame in order for it to only show Name, Track, Electronics
@@ -112,11 +112,11 @@ Mindydata = Mindy.loc[
     ['Name','Track','Electronics','Average']
 ]
 ```
-Filters the Mindy DataFrame to find specific students based on three conditions.
+- Filters the Mindy DataFrame to find specific students based on three conditions.
 
 a. Condition 1: Average >= 55 → selects students with solid overall performance.
 
- b.Condition 2: Hometown == 'Mindanao' → focuses on students from Mindanao.
+b.Condition 2: Hometown == 'Mindanao' → focuses on students from Mindanao.
 
 c. Condition 3: Gender == 'Female' → limits results to female students.
 
@@ -124,7 +124,7 @@ d. Final Output Columns: Displays only 'Name', 'Track', 'Electronics', and 'Aver
 
 
 
-### 02
+### 02 ECE BOARD EXAM PROBLEM VISUALIZATION
 
 ```python
 gender = Mindy.groupby('Gender')['Average'].mean()
