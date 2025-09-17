@@ -69,13 +69,13 @@ x = instru.loc[
 
 - Filters the instru DataFrame to find specific students based on three conditions.
 
-a. Condition 1: instru['Electronics'] > 70 → selects students with Electronics scores above 70.
+ - Condition 1: instru['Electronics'] > 70 → selects students with Electronics scores above 70.
 
-b. Condition 2: instru['Hometown'] == 'Luzon' → limits results to students from Luzon.
+ - Condition 2: instru['Hometown'] == 'Luzon' → limits results to students from Luzon.
 
-d. Condition 3: instru['Track'] == 'Instrumentation' → focuses only on those in the Instrumentation track.
+ - Condition 3: instru['Track'] == 'Instrumentation' → focuses only on those in the Instrumentation track.
 
-e. Final Output Columns: Only shows 'Name', 'GEAS', and 'Electronics' in the result.
+ - Final Output Columns: Only shows 'Name', 'GEAS', and 'Electronics' in the result.
 
 
 ### 01.b ECE BOARD EXAM PROBLEM
@@ -114,13 +114,13 @@ Mindydata = Mindy.loc[
 ```
 - Filters the Mindy DataFrame to find specific students based on three conditions.
 
-a. Condition 1: Average >= 55 → selects students with solid overall performance.
+ - Condition 1: Average >= 55 → selects students with solid overall performance.
 
-b.Condition 2: Hometown == 'Mindanao' → focuses on students from Mindanao.
+ - Condition 2: Hometown == 'Mindanao' → focuses on students from Mindanao.
 
-c. Condition 3: Gender == 'Female' → limits results to female students.
+ - Condition 3: Gender == 'Female' → limits results to female students.
 
-d. Final Output Columns: Displays only 'Name', 'Track', 'Electronics', and 'Average'.
+ - Final Output Columns: Displays only 'Name', 'Track', 'Electronics', and 'Average'.
 
 
 
@@ -177,14 +177,14 @@ bars = plt.bar(
 ### 📝 Commitments
 
 - **v1.0** – Initial draft
-- Loaded and cleaned the dataset
-- Built initial filtered DataFrames
+ - Loaded and cleaned the dataset
+ - Built initial filtered DataFrames
 
 - **v1.1** – Rechecking
-- Calculated average scores and created the combined bar chart
+ - Calculated average scores and created the combined bar chart
   
 - **v1.2** – Final polish
-- Added clear explanations and finalized the README layout
+ - Added clear explanations and finalized the README layout
 
  ---
 
